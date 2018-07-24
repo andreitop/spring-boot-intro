@@ -16,7 +16,6 @@ public class SimpleApp extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SimpleApp.class, args);
     }
 
     @RestController
