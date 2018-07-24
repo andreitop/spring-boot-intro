@@ -44,5 +44,8 @@
         </plugins>
     </build>
 
+    <modules>
+        <module>spring-boot-another</module>
+    </modules>
 
 </project>
