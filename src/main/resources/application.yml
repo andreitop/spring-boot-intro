@@ -1,0 +1,5 @@
+dark:
+  config: i'm dark config
+
+white:
+  secret: ${random.uuid}
