@@ -3,3 +3,25 @@ dark:
 
 white:
   secret: ${random.uuid}
+
+---
+
+spring:
+  profiles: prod
+
+dark:
+  config: i'm the DARKEST PROD config
+
+white:
+  secret: ${random.int(100,10000)}
+
+---
+
+spring:
+  profiles: dev
+
+dark:
+  config: i'm dark DEV config
+
+white:
+  secret: ${random.int(1,10)}
