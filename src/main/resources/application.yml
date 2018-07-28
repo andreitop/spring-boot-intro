@@ -3,13 +3,3 @@ dark:
 
 white:
   secret: ${random.uuid}
-
-custom-config:
-  used: true
-  primary-address: 10.0.2.3
-  specific-options:
-    main-user: admin
-    continents:
-    - AFRICA
-    - AMERICA
-    - EUROPE
